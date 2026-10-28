@@ -1,5 +1,5 @@
 import { Router} from "express";
-import func from "./controller/getinfo.ts";
+import func from "./auth-controller";
 
 const router = Router()
 
