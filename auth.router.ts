@@ -1,19 +1,11 @@
 import { Router} from "express";
-
+import func from "./controller/getinfo.ts";
 
 const router = Router()
 
-router.get("/hello" , (req , res)=>{
-    res.json({
-        name : "Authlab"
-    })
-})
+router.get("/hello" , func.getName)
 
-router.get("/about" , (req , res)=>{
-    res.json({
-        project : "Authlab"
-    })
-})
+router.get("/about" , func.getInfo)
 
 
 export default router
