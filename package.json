@@ -2,11 +2,11 @@
   "name": "authlab",
   "version": "1.0.0",
   "description": "",
-  "main": "app.ts",
+  "main": "server.ts",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx src/app.ts"
+    "dev": "tsx src/server.ts"
   },
   "repository": {
     "type": "git",
